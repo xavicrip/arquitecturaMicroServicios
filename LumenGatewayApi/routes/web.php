@@ -40,3 +40,17 @@
     $router->put('/reviews/{review}', 'ReviewController@update');
     $router->patch('/reviews/{review}', 'ReviewController@update');
     $router->delete('/reviews/{review}', 'ReviewController@destroy');
+
+    /**
+     * Ratings routes
+     */
+    $router->get('/ratings', 'RatingController@index');
+    $router->post('/ratings', 'RatingController@store');
+    $router->get('/ratings/{rating}', 'RatingController@show');
+    $router->put('/ratings/{rating}', 'RatingController@update');
+    $router->patch('/ratings/{rating}', 'RatingController@update');
+    $router->delete('/ratings/{rating}', 'RatingController@destroy');
+
+    // Special routes for ratings by book
+    $router->get('/ratings/book/{bookId}', 'RatingController@getRatingsByBook');
+    $router->get('/ratings/book/{bookId}/average', 'RatingController@getAverageRating');

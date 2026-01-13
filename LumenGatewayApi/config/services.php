@@ -15,4 +15,9 @@ return [
         'base_uri' => env('REVIEWS_SERVICE_BASE_URL'),
         'secret' => env('REVIEWS_SERVICE_SECRET'),
     ],
+
+    'ratings' => [
+        'base_uri' => env('RATINGS_SERVICE_BASE_URL'),
+        'secret' => env('RATINGS_SERVICE_SECRET'),
+    ],
 ];
