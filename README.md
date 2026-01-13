@@ -131,11 +131,11 @@ arquitecturaMicroServicios/
 
 ## 🔧 Requisitos
 
-- **PHP**: >= 8.1 (recomendado 8.2+)
+- **PHP**: >= 8.2 (recomendado 8.2+)
 - **Composer**: Para gestionar dependencias
 - **SQLite**: Para las bases de datos (incluido en PHP)
 
-> **Nota**: Este proyecto ha sido actualizado a **Lumen 10.x** (compatible con PHP 8.1+). Para más detalles sobre la actualización, consulta [ACTUALIZACION_LUMEN10.md](ACTUALIZACION_LUMEN10.md).
+> **Nota**: Este proyecto ha sido actualizado a **Lumen 10.x** (requiere PHP 8.2+ debido a las dependencias actualizadas). Las versiones más recientes de las dependencias requieren PHP 8.2 o superior.
 
 ## 📦 Instalación
 
@@ -423,7 +423,7 @@ curl http://localhost:8000/authors/1
 
 ### Backend
 - **Laravel Lumen 10.x**: Framework PHP ligero para APIs (actualizado desde 5.7)
-- **PHP 8.1+**: Versión moderna de PHP con mejor rendimiento
+- **PHP 8.2+**: Versión moderna de PHP con mejor rendimiento
 - **Guzzle HTTP 7.8**: Cliente HTTP para comunicación entre servicios
 - **Eloquent ORM**: ORM de Laravel para acceso a datos
 - **SQLite**: Base de datos ligera para desarrollo

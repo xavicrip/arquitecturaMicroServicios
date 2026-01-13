@@ -603,7 +603,7 @@ mindmap
     root((Arquitectura<br/>Microservicios))
         Framework
             Laravel Lumen 10.x
-            PHP 8.1+
+            PHP 8.2+
         Comunicación
             HTTP REST
             Guzzle HTTP Client
